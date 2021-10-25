@@ -33,4 +33,14 @@ alias poff='unset http_proxy; unset https_proxy;'
 # Tmux
 alias tnew='tmux new -s '
 
+# Path
+# JDK
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home'
+
+# Maven
+export M2_HOME='/Users/jing/Opt/apache-maven-3.8.3'
+
+# PATH
+export PATH=$PATH:$M2_HOME/bin:$JAVA_HOME/bin
+
 # Personal Config End
